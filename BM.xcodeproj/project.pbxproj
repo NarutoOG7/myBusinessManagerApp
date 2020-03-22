@@ -19,6 +19,13 @@
 		C92CFD3E2425C25D00875C76 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92CFD3D2425C25D00875C76 /* RegisterViewController.swift */; };
 		C92CFD402425C26900875C76 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92CFD3F2425C26900875C76 /* WelcomeViewController.swift */; };
 		C92CFD422425C7C800875C76 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C92CFD412425C7C800875C76 /* GoogleService-Info.plist */; };
+		C9542F222427209C00FCF803 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9542F212427209C00FCF803 /* Constants.swift */; };
+		C9542F242427EF9900FCF803 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9542F232427EF9900FCF803 /* MenuTableViewController.swift */; };
+		C9542F262427F80B00FCF803 /* MaterialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9542F252427F80B00FCF803 /* MaterialsViewController.swift */; };
+		C9542F282427F82400FCF803 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9542F272427F82400FCF803 /* CalendarViewController.swift */; };
+		C9542F2A2427F83000FCF803 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9542F292427F83000FCF803 /* SettingsViewController.swift */; };
+		C9542F2C2427F83B00FCF803 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9542F2B2427F83B00FCF803 /* AccountViewController.swift */; };
+		C9542F2E24280A6C00FCF803 /* AddProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9542F2D24280A6C00FCF803 /* AddProjectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +43,13 @@
 		C92CFD3D2425C25D00875C76 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C92CFD3F2425C26900875C76 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		C92CFD412425C7C800875C76 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C9542F212427209C00FCF803 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C9542F232427EF9900FCF803 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		C9542F252427F80B00FCF803 /* MaterialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialsViewController.swift; sourceTree = "<group>"; };
+		C9542F272427F82400FCF803 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		C9542F292427F83000FCF803 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C9542F2B2427F83B00FCF803 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		C9542F2D24280A6C00FCF803 /* AddProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectViewController.swift; sourceTree = "<group>"; };
 		D3BA09EFB9A791DE01DDFF72 /* Pods_BM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14BBA6707A366BFA5BEF366 /* Pods-BM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BM.debug.xcconfig"; path = "Target Support Files/Pods-BM/Pods-BM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +96,7 @@
 		C92CFD1C2425BAF500875C76 /* BM */ = {
 			isa = PBXGroup;
 			children = (
+				C9542F212427209C00FCF803 /* Constants.swift */,
 				C92CFD2B2425BAFE00875C76 /* Info.plist */,
 				C92CFD382425C17100875C76 /* Other */,
 				C92CFD332425BCA500875C76 /* Model */,
@@ -94,10 +109,11 @@
 		C92CFD312425BC9100875C76 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C92CFD3F2425C26900875C76 /* WelcomeViewController.swift */,
+				C92CFD342425BEED00875C76 /* HomeViewController.swift */,
 				C92CFD3A2425C22800875C76 /* Menu */,
 				C92CFD392425C21400875C76 /* Authentication */,
-				C92CFD342425BEED00875C76 /* HomeViewController.swift */,
-				C92CFD3F2425C26900875C76 /* WelcomeViewController.swift */,
+				C9542F2D24280A6C00FCF803 /* AddProjectViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -142,6 +158,11 @@
 		C92CFD3A2425C22800875C76 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				C9542F232427EF9900FCF803 /* MenuTableViewController.swift */,
+				C9542F252427F80B00FCF803 /* MaterialsViewController.swift */,
+				C9542F272427F82400FCF803 /* CalendarViewController.swift */,
+				C9542F292427F83000FCF803 /* SettingsViewController.swift */,
+				C9542F2B2427F83B00FCF803 /* AccountViewController.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -270,13 +291,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9542F2E24280A6C00FCF803 /* AddProjectViewController.swift in Sources */,
 				C92CFD1E2425BAF500875C76 /* AppDelegate.swift in Sources */,
+				C9542F262427F80B00FCF803 /* MaterialsViewController.swift in Sources */,
+				C9542F2C2427F83B00FCF803 /* AccountViewController.swift in Sources */,
 				C92CFD202425BAF600875C76 /* SceneDelegate.swift in Sources */,
+				C9542F282427F82400FCF803 /* CalendarViewController.swift in Sources */,
 				C92CFD352425BEED00875C76 /* HomeViewController.swift in Sources */,
 				C92CFD3E2425C25D00875C76 /* RegisterViewController.swift in Sources */,
 				C92CFD3C2425C25200875C76 /* LoginViewController.swift in Sources */,
+				C9542F242427EF9900FCF803 /* MenuTableViewController.swift in Sources */,
 				C92CFD372425C11900875C76 /* Project.swift in Sources */,
 				C92CFD402425C26900875C76 /* WelcomeViewController.swift in Sources */,
+				C9542F222427209C00FCF803 /* Constants.swift in Sources */,
+				C9542F2A2427F83000FCF803 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
