@@ -59,7 +59,7 @@ extension MenuTableViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
-            <#code#>
+            performSegue(withIdentifier: K.segues.goToHome, sender: self)
         case 1:
             performSegue(withIdentifier: K.segues.menuToMaterials, sender: self)
         case 2:

@@ -26,6 +26,8 @@ struct K {
         static let menuToSettings = "menuToSettings"
         
         static let projectAdded = "projectAdded"
+        
+        static let goToHome = "goToHome"
     }
     
     

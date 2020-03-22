@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dn5-Km-nTr">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -71,7 +71,7 @@
                                 <state key="normal" title="DONE"/>
                                 <connections>
                                     <action selector="donePressed:" destination="flj-pb-Hth" eventType="touchUpInside" id="x0Q-5I-i9L"/>
-                                    <segue destination="tZE-Mw-cc4" kind="show" identifier="register" id="Hgk-ce-SOw"/>
+                                    <segue destination="tZE-Mw-cc4" kind="showDetail" identifier="register" id="Hgk-ce-SOw"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jQq-v8-1P4">
@@ -122,7 +122,7 @@
             <objects>
                 <viewController id="uCL-2R-ZB6" customClass="HomeViewController" customModule="BM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hb5-HY-kgX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="a1g-H6-dGb">
@@ -172,7 +172,7 @@
             <objects>
                 <viewController id="wIu-xm-Eyw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pEV-bQ-mdr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Ih2-9W-sMv"/>
@@ -188,7 +188,7 @@
             <objects>
                 <viewController id="SAl-8G-wwh" customClass="AddProjectViewController" customModule="BM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uva-qK-USB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Project Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phk-C2-oAX">
@@ -268,7 +268,7 @@
                                 <state key="normal" title="DONE"/>
                                 <connections>
                                     <action selector="donePressed:" destination="Bvc-bP-7SO" eventType="touchUpInside" id="UoV-0e-cvI"/>
-                                    <segue destination="tZE-Mw-cc4" kind="show" identifier="login" id="CIZ-XD-ZvS"/>
+                                    <segue destination="tZE-Mw-cc4" kind="showDetail" identifier="login" id="CIZ-XD-ZvS"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fpu-iy-1BA">
@@ -303,7 +303,7 @@
                 <navigationController id="P7M-Ul-8n5" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="I9O-Mg-eU4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BbF-9Y-hdU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -319,7 +319,7 @@
             <objects>
                 <viewController id="mSH-Ca-JqH" customClass="MenuTableViewController" customModule="BM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6ce-x1-L5v">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="OqK-J4-TFA">
@@ -341,7 +341,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="MdM-kH-MRL"/>
                     </view>
-                    <navigationItem key="navigationItem" id="88Z-Eu-ZOm"/>
+                    <navigationItem key="navigationItem" id="88Z-Eu-ZOm">
+                        <barButtonItem key="rightBarButtonItem" title="home" image="house.fill" catalog="system" id="YY2-M5-Iso">
+                            <connections>
+                                <segue destination="tZE-Mw-cc4" kind="show" identifier="goToHome" id="3eG-In-t7u"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="menuTableView" destination="OqK-J4-TFA" id="f4v-LN-oEy"/>
                         <segue destination="aR3-wB-ZwO" kind="show" identifier="menuToAccount" id="P7g-hX-hZ6"/>
@@ -359,7 +365,7 @@
             <objects>
                 <viewController id="hXx-Ld-TU7" customClass="MaterialsViewController" customModule="BM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ie5-Zv-msh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="WlO-ZD-uiE"/>
@@ -375,7 +381,7 @@
             <objects>
                 <viewController id="Ing-Fh-1Q8" customClass="CalendarViewController" customModule="BM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Na1-d2-AXh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="XYr-bL-I2P"/>
@@ -391,7 +397,7 @@
             <objects>
                 <viewController id="aR3-wB-ZwO" customClass="AccountViewController" customModule="BM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SKr-dl-yJd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="oqk-eb-fzW"/>
@@ -409,7 +415,7 @@
             <objects>
                 <viewController id="WYB-XH-tXZ" customClass="SettingsViewController" customModule="BM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wRM-MX-CYC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="dNf-K6-xAj"/>
@@ -427,7 +433,7 @@
         <image name="plus" catalog="system" width="64" height="56"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HO2-oY-8P7"/>
-        <segue reference="Hgk-ce-SOw"/>
+        <segue reference="va6-qb-6yc"/>
+        <segue reference="CIZ-XD-ZvS"/>
     </inferredMetricsTieBreakers>
 </document>
